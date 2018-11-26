@@ -1,8 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
-// const autoprefixer = require("autoprefixer");
-// const Dotenv = require("dotenv-webpack");
 const outputDirectory = "build";
 
 module.exports = {
