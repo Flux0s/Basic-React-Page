@@ -1,7 +1,7 @@
 {
   "name": "basic-react-page",
   "version": "1.0.0",
-  "description": "",
+  "description": "Basic page for development of a static react website.",
   "main": "/src/index.js",
   "scripts": {
     "start": "echo start script is undefined. && exit 1",
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Flux0s/Basic-React-Page.git"
   },
-  "author": "",
+  "author": "Jason Owens",
   "license": "ISC",
   "homepage": "https://github.com/Flux0s/Basic-React-Page#readme",
   "devDependencies": {
