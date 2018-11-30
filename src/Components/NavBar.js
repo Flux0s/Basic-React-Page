@@ -4,13 +4,9 @@ import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import { withStyles } from "@material-ui/core";
 
-const styles = (theme) => ({
-  root: {
-    flexGrow: 1
-  }
-});
+const styles = (theme) => ({});
 
-class AppBar extends Component {
+class NavBar extends Component {
   render() {
     return (
       <AppBar position="static" color="primary">
@@ -24,4 +20,4 @@ class AppBar extends Component {
   }
 }
 
-export default withStyles(styles)(AppBar);
+export default withStyles(styles)(NavBar);

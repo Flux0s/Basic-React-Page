@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { withStyles } from "@material-ui/core/styles";
 import { createMuiTheme, MuiThemeProvider } from "@material-ui/core";
 import theme from "./Theme.js";
-import AppBar from "./Components/AppBar";
+import NavBar from "./Components/NavBar";
 
 const styles = (theme) => ({
   root: {
@@ -21,7 +21,7 @@ class App extends Component {
     return (
       <div className="root">
         <MuiThemeProvider theme={createMuiTheme(theme)}>
-          <AppBar />
+          <NavBar />
           <this.state.page />
         </MuiThemeProvider>
       </div>
