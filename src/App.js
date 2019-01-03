@@ -18,8 +18,9 @@ class App extends Component {
     };
   }
   render() {
+    const { classes } = this.props;
     return (
-      <div className="root">
+      <div className={classes.root}>
         <MuiThemeProvider theme={createMuiTheme(theme)}>
           <NavBar />
           <this.state.page />

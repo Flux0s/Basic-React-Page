@@ -1,19 +1,32 @@
 import React, { Component } from "react";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
-import Typography from "@material-ui/core/Typography";
+import Logo from "./Logo";
 import { withStyles } from "@material-ui/core";
 
-const styles = (theme) => ({});
+const styles = (theme) => ({
+  toolbar: {
+    margin: "0 auto"
+  },
+  Logo: {
+    padding: "6px",
+    // height: "28px",
+    // width: "28px",
+    "background-color": "#fff",
+    "border-radius": "50%"
+  },
+  LogoText: {
+    "font-family": "'Comfortaa', cursive"
+  }
+});
 
 class NavBar extends Component {
   render() {
+    const { classes } = this.props;
     return (
       <AppBar position="static" color="primary">
-        <Toolbar>
-          <Typography variant="h6" color="inherit">
-            Steven
-          </Typography>
+        <Toolbar className={classes.toolbar}>
+          <Logo />
         </Toolbar>
       </AppBar>
     );

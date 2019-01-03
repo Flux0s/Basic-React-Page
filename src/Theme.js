@@ -1,11 +1,11 @@
-import lightGreen from "@material-ui/core/colors/lightGreen";
-import cyan from "@material-ui/core/colors/cyan";
+import blue from "@material-ui/core/colors/blue";
+import yellow from "@material-ui/core/colors/yellow";
 import red from "@material-ui/core/colors/red";
 
 const theme = {
   palette: {
-    primary: { main: lightGreen[600] },
-    secondary: { main: cyan[800] },
+    primary: { main: blue[600] },
+    secondary: { main: yellow[800] },
     error: red,
     contrastThreshold: 3,
     tonalOffset: 0.2
